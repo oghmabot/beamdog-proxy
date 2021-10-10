@@ -1,6 +1,6 @@
 {
   "name": "@oghmabot/beamdog-proxy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Handles interaction with the Beamdog NWMaster JSON Api.",
   "main": "dist/index.js",
   "publishConfig": {
