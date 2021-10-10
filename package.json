@@ -1,0 +1,45 @@
+{
+  "name": "@oghmabot/beamdog-proxy",
+  "version": "0.1.0",
+  "description": "Handles interaction with the Beamdog NWMaster JSON Api.",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ./src/**/*.ts",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Oghmabot/beamdog-proxy.git"
+  },
+  "keywords": [
+    "arelith",
+    "beamdog",
+    "oghmabot",
+    "api"
+  ],
+  "author": "aergnist",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Oghmabot/beamdog-proxy/issues"
+  },
+  "homepage": "https://github.com/Oghmabot/beamdog-proxy#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/node-fetch": "^2.5.12",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "node-fetch": "^2.6.5",
+    "typescript": "^4.4.3",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "peerDependencies": {
+    "node-fetch": "^2.6.5"
+  }
+}
